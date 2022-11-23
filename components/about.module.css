@@ -1,0 +1,46 @@
+.container {
+ 
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+    background-image: url("/images/background_body.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: black;
+}
+
+.container > img {
+    width: 24px;
+    height: 24px;
+}
+
+.container > h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.cards {
+    text-align: center;
+}
+
+.image_card {
+    width: 23rem;
+}
+
+.names {
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.titles {
+    font-size: 16px;
+    gap:0px;
+}
+
+.details {
+    font-size: 20px;
+}

@@ -6,7 +6,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
 }
 
 .label{
@@ -22,7 +21,6 @@
 
 .label > img {
     padding: 0px 75px 0px 175px;
-    
 }
 
 .forms {
@@ -41,6 +39,19 @@
 .login_form > br {
     display: block;
     margin: 50%;
+}
+
+.signup {
+    position: relative;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: black;
+    font-size: 25px;
+    bottom: 55%;
+    padding: 3px 30px 3px 30px;
 }
 
 .username {
@@ -70,13 +81,23 @@
 .button_submit{
     position: relative;
     font-size: 25px;
-    bottom: 45%;
+    background-color: white;
+    color: black;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: black;
+    font-size: 25px;
+    bottom: 100%;
     padding: 3px 35px 3px 35px;
+}
+
+.button_submit:hover{
+    background-color: aqua;
 }
 
 .forgot {
     position: relative;
-    bottom: 45%;
+    bottom: 48%;
 }
 
 .forgot > a {

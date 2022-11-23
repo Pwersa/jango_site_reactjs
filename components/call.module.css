@@ -1,0 +1,34 @@
+.container {
+  color: black;
+  padding: 0px 100px 80px 36px;
+  display: flex;
+  background-color: white
+}
+
+.label {
+  width: 100%;
+}
+
+.label > h1 {
+  font-size: 64px;
+  text-align: left;
+}
+
+.label > p {
+  font-size: 36px;
+  text-align: left;
+  padding-right: 250px;
+}
+
+.image {
+  width: 100%;
+}
+
+.image > img {
+  margin: auto;
+  display: block;
+  margin-top: 60px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
