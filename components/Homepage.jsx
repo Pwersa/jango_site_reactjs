@@ -30,7 +30,9 @@ function Homepage(){
                     <br />
                 </form>
                 <br />
-                <button className={styles.signup}>Sign Up</button>
+
+                <button className={styles.button_signup}>Sign Up</button>
+                
 
                 <p className={styles.forgot}>Forgot Password? <a href="#">Click Here</a></p>
 
