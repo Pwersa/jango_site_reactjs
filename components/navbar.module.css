@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkred;
+}
+
+.navbarButtons {
+    display: flex;
+    gap: 36px;
+    margin-right: 30px;
+    
+}
+
+.navbarButtons > button {
+    font-size: 30px;
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
+    background-color: black;
+}

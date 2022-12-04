@@ -1,46 +1,85 @@
 .container {
- 
+    margin: 0px 200px 100px 200px;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
-    background-image: url("/images/background_body.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    color: black;
-}
+    background-color: D8A47F;
+}   
 
-.container > img {
-    width: 24px;
-    height: 24px;
-}
-
-.container > h1 {
+.title {
     text-align: center;
-    font-size: 80px;
+    margin-bottom: 120px;
 }
 
-.cards {
+.title > h1 {
+    font-size: 100px;
+}
+
+.title > p {
+    font-size: 25px;
+}
+
+.title > img {
+    border-radius: 50%;
+    margin: 50px 50px 20px 50px;
+}
+
+.forms > h1 {
     text-align: center;
+    font-size: 100px;
 }
 
-.image_card {
-    width: 23rem;
+.forms > h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
 }
 
-.names {
-    font-size: 28px;
-    padding-top: 10px;
+.login_form {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 150px;
 }
 
-.titles {
-    font-size: 16px;
-    gap:0px;
-}
-
-.details {
+.login_form > input {
     font-size: 20px;
+    text-align: center;
+    width: 380px;
+    height: 40px;
+}
+
+.login_form > button {
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.call_us > h2 {
+    text-align: center;
+    font-size: 75px;
+}
+
+.call_us > img {
+    text-align: left;
+}
+
+.call_us_container {
+    display: flex;
+
+}
+
+.image {
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+.image > img {
+    width: 350px;
+    height: 350px;
+}
+
+.label > h2 {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 50px;
 }
