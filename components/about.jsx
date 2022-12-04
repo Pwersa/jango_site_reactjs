@@ -5,7 +5,12 @@ function BasicExample() {
         <div className={styles.container}>
             <div className={styles.title}>
                 <h1>ABOUT US</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat esse voluptatem quibusdam magni, autem, voluptatibus ex natus perferendis molestias ullam libero mollitia dicta facere consectetur repellat? Dicta, fugit ducimus.</p>
+                <p>We are Jango Keebs, founder of this keyboard retailing site. We specialize in facilitating 
+                    the transaction of keyboards, and keyboard-related items. Born from a dream of 
+                    streamlining the process of building and buying custom keyboards, we made this site 
+                    for casuals and enthusiasts alike. So what are you waiting for? Go and make the 
+                    keyboard of your dreams come true!
+                </p>
                 <img src="people/duran.png" />
                 <img src="people/sango.png" />
                 <img src="people/indaya.png" />
