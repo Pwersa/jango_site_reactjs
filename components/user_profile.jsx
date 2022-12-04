@@ -8,8 +8,12 @@ function Homepage(){
                 <button>Log Out</button>
             </div>
 
+            <img src="images/profile_rectangle.png" />
+
             <div className={styles.card_profile}>
+            
                 <img src="people/placeholder.png" />
+                
                 <table>
                     <tr>
                         <td className={styles.title_user}>Name:</td>
