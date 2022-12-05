@@ -4,8 +4,6 @@
     font-family:'Courier New', Courier, monospace;
     align-items: center;
     background-color: darkred;
-    width: 100%;
-    height: 100px;
 }
 
 .title {
@@ -39,14 +37,6 @@
     border-width: 3px;
     border-radius:10px;
     border-color: black;
-}
-
-.navbarButtons > img {
-    border-radius: 20px;
-    align-items: center;
-    margin: 15px 10px 0px 10px;
-    width: 75px;
-    height: 75px;
 }
 
 .navbarButtons > a {

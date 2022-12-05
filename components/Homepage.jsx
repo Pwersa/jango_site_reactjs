@@ -33,9 +33,62 @@ function home_site() {
                 <h3>"SELLER NAME"</h3>
                 <h4>SPECIFICATIONS:</h4>
                 <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sunt, quasi temporibus cum quos modi voluptatum facilis.</h5>
-                <button>Add to Card</button>
-
+                <button>Add to Cart</button>
+                
             </div>
+
+            <div className={styles.items_available}>
+                <img className={styles.card_items}src="images/profile_rectangle.png" />
+                <img className={styles.product}src="items/product_2.png" />
+               
+                <h1>BRAND X</h1>
+                <h2>P10,000</h2>
+                <h3>"SELLER NAME"</h3>
+                <h4>SPECIFICATIONS:</h4>
+                <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sunt, quasi temporibus cum quos modi voluptatum facilis.</h5>
+                <button>Add to Cart</button>
+                
+            </div>
+            
+            <div className={styles.items_available}>
+                <img className={styles.card_items}src="images/profile_rectangle.png" />
+                <img className={styles.product}src="items/product_2.png" />
+               
+                <h1>BRAND X</h1>
+                <h2>P10,000</h2>
+                <h3>"SELLER NAME"</h3>
+                <h4>SPECIFICATIONS:</h4>
+                <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sunt, quasi temporibus cum quos modi voluptatum facilis.</h5>
+                <button>Add to Cart</button>
+                
+            </div>
+            
+            <div className={styles.items_available}>
+                <img className={styles.card_items}src="images/profile_rectangle.png" />
+                <img className={styles.product}src="items/product_2.png" />
+               
+                <h1>BRAND X</h1>
+                <h2>P10,000</h2>
+                <h3>"SELLER NAME"</h3>
+                <h4>SPECIFICATIONS:</h4>
+                <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sunt, quasi temporibus cum quos modi voluptatum facilis.</h5>
+                <button>Add to Cart</button>
+                
+            </div>
+            
+            <div className={styles.items_available}>
+                <img className={styles.card_items}src="images/profile_rectangle.png" />
+                <img className={styles.product}src="items/product_2.png" />
+               
+                <h1>BRAND X</h1>
+                <h2>P10,000</h2>
+                <h3>"SELLER NAME"</h3>
+                <h4>SPECIFICATIONS:</h4>
+                <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sunt, quasi temporibus cum quos modi voluptatum facilis.</h5>
+                <button>Add to Cart</button>
+                
+            </div>
+            
 
 
         </div>

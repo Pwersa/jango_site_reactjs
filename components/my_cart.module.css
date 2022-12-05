@@ -1,0 +1,211 @@
+.container {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #86BBD8;
+}
+
+.container > h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.items_available {
+    position: relative;
+    text-align: center;
+    color: #F6AE2D;
+    margin-bottom: 1%;
+}
+
+.card_items {
+    border-radius: 50px;
+    width: 60%;
+    height: 400px;
+}
+
+.product {
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.items_available > h1 {
+    position: absolute;
+    font-size: 40px;
+    top: 20px;
+    left: 43%;
+}
+
+.items_available > h2 {
+    position: absolute;
+    font-size: 40px;
+    top: 60px;
+    left: 43%;
+    text-decoration: underline;
+    color: #B30000;
+}
+
+.items_available > h3 {
+    position: absolute;
+    font-size: 35px;
+    top: 125px;
+    left: 43%;
+}
+
+.items_available > h4 {
+    position: absolute;
+    font-size: 35px;
+    top: 170px;
+    left: 43%;
+}
+
+.items_available > h5 {
+    position: absolute;
+    text-align: left;
+    width: 30%;
+    font-size: 20px;
+    top: 220px;
+    left: 43%;
+}
+
+.items_available > button {
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    top: 330px;
+    left: 65%;
+    height: 12%;
+    width: 12%;
+
+    background-color: pink;
+    color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-radius:10px;
+    border-color: black;
+
+}
+
+.items_available:hover > button {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+.payment_method {
+    position: relative;
+    text-align: center;
+    color: #F6AE2D;
+    margin-top: 5%;
+}
+
+.payment_method > h1 {
+    position: absolute;
+    font-size: 40px;
+    top: 0px;
+    left: 22%;
+}
+
+.payment_method > h2 {
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    left: 22%;
+    width: 1000px;
+}
+
+.payment_method > h3 {
+    position: absolute;
+    font-size: 35px;
+    top: 125px;
+    left: 38%;
+}
+
+.payment_method > button {
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    top: 330px;
+    left: 65%;
+    height: 12%;
+    width: 12%;
+
+    background-color: pink;
+    color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-radius:10px;
+    border-color: black;
+
+}
+
+.payment_method:hover > button {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+.payment_card {
+    position: absolute;
+    top: 210px;
+    left: 40%;
+    width: 380px;
+}
+
+.g_cash {
+    position: absolute;
+    top: 235px;
+    left: 41%;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.cod {
+    position: absolute;
+    top: 225px;
+    left: 51%;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.pay_amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.pay_amount > h1 {
+    margin: 0px 50px 100px 10px;
+    font-size: 48px;
+}
+
+.pay_amount > h3 {
+    margin: 0px 50px 100px 10px;
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+.pay_amount > button {
+    margin: 0px 50px 100px 10px;
+    font-size: 48px;
+}
+
+.pay_amount > button {
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: pink;
+    color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-radius:10px;
+    border-color: black;
+}
+
+.pay_amount:hover > button {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
