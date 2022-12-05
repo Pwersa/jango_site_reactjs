@@ -1,6 +1,6 @@
 import styles from "./about.module.css";
 
-function BasicExample() {
+function about_contact_page() {
     return (
         <div className={styles.container}>
             <div className={styles.title}>
@@ -63,4 +63,4 @@ function BasicExample() {
     );
 }
 
-export default BasicExample;
+export default about_contact_page;

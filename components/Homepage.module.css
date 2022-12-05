@@ -1,126 +1,168 @@
 .container {
-    display: flex;
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-    background-image: url("/images/background_body.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #86BBD8;
+    margin-top: 0px;
 }
 
-.label{
-    width: 100%;
-}
-
-.label > h1 {
-    font-size: 128px;
-    text-align: left;
-    padding: 50px 100px 0px 125px;
-    color: black;
-}
-
-.label > img {
-    padding: 0px 75px 0px 175px;
-}
-
-.forms {
+.item_spotlight {
     position: relative;
     text-align: center;
-    padding: 170px 165px 124px;
-    color: black;
-    font-weight: 900px;
+    color: #F6AE2D;
 }
 
-.login_form {
-    position: relative;
-    bottom: 55%;
-}
-
-.login_form > br {
-    display: block;
-    margin: 50%;
-}
-
-.username {
-    position: relative;
-    font-size: 25px;
-    bottom: 65%;
-}
-
-.input_email {
-    position: relative;
-    font-size: 20px;
-    bottom: 65%;
-}
-
-.password {
-    position: relative;
-    font-size: 25px;
-    bottom: 75%;
-}
-
-.input_password {
-    position: relative;
-    font-size: 20px;
-    bottom: 50%;
-}
-
-.button_submit{
-    position: relative;
-    font-size: 25px;
-    background-color: white;
-    color: black;
-    border-width: 2px;
-    border-radius: 15px;
-    border-color: black;
-    font-size: 25px;
-    bottom: 100%;
-    padding: 3px 35px 3px 35px;
-}
-
-.button_submit:hover{
-    background-color: aqua;
-}
-
-.button_signup{
-    position: relative;
-    font-size: 25px;
-    background-color: white;
-    color: black;
-    border-width: 2px;
-    border-radius: 15px;
-    border-color: black;
-    font-size: 25px;
-    bottom: 55%;
-    padding: 3px 35px 3px 35px;
-}
-
-.button_signup:hover{
-    background-color: aqua;
-}
-
-
-.forgot {
-    position: relative;
-    bottom: 48%;
-}
-
-.forgot > a {
+.item_spotlight > h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-decoration: underline;
+    font-size: 50px;
 }
 
-.introduction {
+.card_spotlight {
+    border-radius: 50px;
+    width: 60%;
+    height: 400px;
+}
+
+.keeb_spotlight {
     position: absolute;
-    bottom: 30%;
-    left: 1319px;
+    text-align: center;
+    top: 23%;
+    left: 25%;
+    width: 20%;
+    border-radius: 20px;
+}
+
+.spotlight_detail {
+    position: absolute;
+    font-size: 26px;
+    top: 150px;
+    right: 440px;
+    width: 31%;
+}
+
+.search_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.search_item > h1 {
+    text-decoration: underline;
+    font-size: 50px;
+    width: 20%;
+}
+
+.search_item > input {
+    font-size: 20px;
+    text-align: center;
+    width: 380px;
+    height: 40px;
+    margin-right: 1%;
+}
+
+.search_item > button {
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: pink;
     color: black;
-    font-size: 32px;
+    border-style: outset;
+    border-width: 3px;
+    border-radius:10px;
+    border-color: black;
 }
 
-.contact:hover {
-    text-decoration: underline;
+.search_item:hover > button {
+    background-color: red;
+    color: black;
+    cursor: pointer;
 }
 
-.about:hover {
-    text-decoration: underline;
+.items_available {
+    position: relative;
+    text-align: center;
+    color: #F6AE2D;
 }
+
+.card_items {
+    border-radius: 50px;
+    width: 60%;
+    height: 400px;
+}
+
+.product {
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.items_available > h1 {
+    position: absolute;
+    font-size: 40px;
+    top: 20px;
+    left: 43%;
+}
+
+.items_available > h2 {
+    position: absolute;
+    font-size: 40px;
+    top: 60px;
+    left: 43%;
+    text-decoration: underline;
+    color: #B30000;
+}
+
+.items_available > h3 {
+    position: absolute;
+    font-size: 35px;
+    top: 125px;
+    left: 43%;
+}
+
+.items_available > h4 {
+    position: absolute;
+    font-size: 35px;
+    top: 170px;
+    left: 43%;
+}
+
+.items_available > h5 {
+    position: absolute;
+    text-align: left;
+    width: 30%;
+    font-size: 20px;
+    top: 220px;
+    left: 43%;
+}
+
+.items_available > button {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 330px;
+    left: 68%;
+    height: 10%;
+    width: 8%;
+
+    background-color: pink;
+    color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-radius:10px;
+    border-color: black;
+
+}
+
+.items_available:hover > button {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+

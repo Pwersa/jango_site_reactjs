@@ -1,49 +1,45 @@
-import styles from "./Homepage.module.css";
+import styles from "./homepage.module.css";
 
-function Homepage(){
-    return(
+function home_site() {
+    return (
         <div className={styles.container}>
-            <div className={styles.label}>
-                <h1>
-                    Welcome to
-                    JANGO’s
-                    Website!
-                </h1>
-                <img src="images/green_cross.png" />
-                <img src="images/logo_jango.png" /> 
-                
+
+            <div className={styles.item_spotlight}>
+                <h1>ITEM SPOTLIGHT</h1>
+
+                <img className={styles.card_spotlight}src="images/profile_rectangle.png" />
+                <img className={styles.keeb_spotlight} src="items/keeb_spotlight.png" />
+
+                <p className={styles.spotlight_detail}> This sleek keyboard features a 60% 
+                                                        layout and a cobalt blue body.
+                                                        With grey and blue double-shot 
+                                                        PBT MSA keycaps, this cool keyboard 
+                                                        surely deserves a spot in your PC setup.
+                </p>
             </div>
 
-            <div className={styles.forms}>
-                <img src="images/login_form_background.png" />
+            <div className={styles.search_item}>
+                <h1>ITEM SEARCH:</h1>
+                <input type="text" />
+                <button>SEARCH</button>
+            </div>
 
-                <form className={styles.login_form}>
-                    <label className={styles.username}>Username:</label>
-                    <br />
-                    <input className={styles.input_email}type="email" />
-                    <br /><br />
-                    <label className={styles.password}>Password:</label>
-                    <br />
-                    <input className={styles.input_password}type="password" />
-                    <br /><br /><br />
-                    <button className={styles.button_submit} type="submit">Log in</button>
-                    <br />
-                </form>
-                <br />
-
-                <button className={styles.button_signup}>Sign Up</button>
-                
-
-                <p className={styles.forgot}>Forgot Password? <a href="#">Click Here</a></p>
+            <div className={styles.items_available}>
+                <img className={styles.card_items}src="images/profile_rectangle.png" />
+                <img className={styles.product}src="items/product_2.png" />
+               
+                <h1>BRAND X</h1>
+                <h2>P10,000</h2>
+                <h3>"SELLER NAME"</h3>
+                <h4>SPECIFICATIONS:</h4>
+                <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sunt, quasi temporibus cum quos modi voluptatum facilis.</h5>
+                <button>Add to Card</button>
 
             </div>
-            <div className={styles.introduction}>
-                <a className={styles.contact} href="http://localhost:3000/contact_us">Contact Us!</a>
-                <a className={styles.divider} > / </a>
-                <a className={styles.about} href="http://localhost:3000/about_us">About Us!</a>
-            </div>
+
+
         </div>
     );
-};
+}
 
-export default Homepage;
+export default home_site;

@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+    background-image: url("/images/background_body.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.label{
+    width: 100%;
+}
+
+.label > h1 {
+    font-size: 128px;
+    text-align: left;
+    padding: 50px 100px 0px 125px;
+    color: black;
+}
+
+.label > img {
+    padding: 0px 75px 0px 175px;
+}
+
+.forms {
+    position: relative;
+    text-align: center;
+    padding: 170px 165px 124px;
+    color: black;
+    font-weight: 900px;
+}
+
+.login_form {
+    position: relative;
+    bottom: 55%;
+}
+
+.login_form > br {
+    display: block;
+    margin: 50%;
+}
+
+.username {
+    position: relative;
+    font-size: 25px;
+    bottom: 65%;
+}
+
+.input_email {
+    position: relative;
+    font-size: 20px;
+    bottom: 65%;
+}
+
+.password {
+    position: relative;
+    font-size: 25px;
+    bottom: 75%;
+}
+
+.input_password {
+    position: relative;
+    font-size: 20px;
+    bottom: 50%;
+}
+
+.button_submit{
+    position: relative;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: black;
+    font-size: 25px;
+    bottom: 100%;
+    padding: 3px 35px 3px 35px;
+}
+
+.button_submit:hover{
+    background-color: aqua;
+}
+
+.button_signup{
+    position: relative;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: black;
+    font-size: 25px;
+    bottom: 55%;
+    padding: 3px 35px 3px 35px;
+}
+
+.button_signup:hover{
+    background-color: aqua;
+}
+
+
+.forgot {
+    position: relative;
+    bottom: 48%;
+}
+
+.forgot > a {
+    text-decoration: underline;
+}
+
+.introduction {
+    position: absolute;
+    bottom: 30%;
+    left: 1319px;
+    color: black;
+    font-size: 32px;
+}
+
+.contact:hover {
+    text-decoration: underline;
+}
+
+.about:hover {
+    text-decoration: underline;
+}
