@@ -1,0 +1,168 @@
+.container {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #86BBD8;
+    margin-top: 0px;
+}
+
+.item_spotlight {
+    position: relative;
+    text-align: center;
+    color: #F6AE2D;
+}
+
+.item_spotlight > h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.card_spotlight {
+    border-radius: 50px;
+    width: 60%;
+    height: 400px;
+}
+
+.keeb_spotlight {
+    position: absolute;
+    text-align: center;
+    top: 23%;
+    left: 25%;
+    width: 20%;
+    border-radius: 20px;
+}
+
+.spotlight_detail {
+    position: absolute;
+    font-size: 26px;
+    top: 150px;
+    right: 440px;
+    width: 31%;
+}
+
+.search_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.search_item > h1 {
+    text-decoration: underline;
+    font-size: 50px;
+    width: 20%;
+}
+
+.search_item > input {
+    font-size: 20px;
+    text-align: center;
+    width: 380px;
+    height: 40px;
+    margin-right: 1%;
+}
+
+.search_item > button {
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: pink;
+    color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-radius:10px;
+    border-color: black;
+}
+
+.search_item:hover > button {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+.items_available {
+    position: relative;
+    text-align: center;
+    color: #F6AE2D;
+}
+
+.card_items {
+    border-radius: 50px;
+    width: 60%;
+    height: 400px;
+}
+
+.product {
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.items_available > h1 {
+    position: absolute;
+    font-size: 40px;
+    top: 20px;
+    left: 43%;
+}
+
+.items_available > h2 {
+    position: absolute;
+    font-size: 40px;
+    top: 60px;
+    left: 43%;
+    text-decoration: underline;
+    color: #B30000;
+}
+
+.items_available > h3 {
+    position: absolute;
+    font-size: 35px;
+    top: 125px;
+    left: 43%;
+}
+
+.items_available > h4 {
+    position: absolute;
+    font-size: 35px;
+    top: 170px;
+    left: 43%;
+}
+
+.items_available > h5 {
+    position: absolute;
+    text-align: left;
+    width: 30%;
+    font-size: 20px;
+    top: 220px;
+    left: 43%;
+}
+
+.items_available > button {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    top: 330px;
+    left: 68%;
+    height: 10%;
+    width: 8%;
+
+    background-color: pink;
+    color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-radius:10px;
+    border-color: black;
+
+}
+
+.items_available:hover > button {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
