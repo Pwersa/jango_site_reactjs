@@ -1,4 +1,4 @@
-import styles from "./job_listing.module.css";
+import styles from "./item_listing.module.css";
 
 function Homepage(){
     return(
