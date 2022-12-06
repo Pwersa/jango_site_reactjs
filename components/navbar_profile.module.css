@@ -29,7 +29,12 @@
     margin-right: 30px;
 }
 
-.navbarButtons > a {
+.navbarButtons > a{
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.marketplace {
     transition-duration: 0.3s;
     font-size: 40px;
     text-decoration: underline;

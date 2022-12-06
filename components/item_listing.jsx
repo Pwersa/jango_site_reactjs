@@ -1,4 +1,5 @@
 import styles from "./item_listing.module.css";
+import Link from 'next/link';
 
 function Homepage(){
     return(
@@ -28,7 +29,8 @@ function Homepage(){
                     <br />
                     <input className={styles.details_input}type="number" />
                     <br /><br /><br />
-                    <button className={styles.button_submit} type="submit">Confirm</button>
+                    <Link href="http://localhost:3000/home_logged_in" ><button className={styles.button_submit} type="submit">Confirm</button></Link>
+                    
                     <br />
                 </form>
                 <br />

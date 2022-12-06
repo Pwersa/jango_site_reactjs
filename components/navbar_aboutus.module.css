@@ -25,21 +25,6 @@
 
 .navbarButtons {
     display: flex;
-    gap: 36px;
-    margin-right: 30px;
-}
-
-.navbarButtons > button {
-    transition-duration: 0.5s;
-    font-size: 30px;
-    width: 150px;
-    height: 60px;
-    background-color: gold;
-    color: black;
-    border-style: outset;
-    border-width: 3px;
-    border-radius:10px;
-    border-color: black;
 }
 
 .navbarButtons > a {
@@ -58,6 +43,16 @@
 }
 
 .login_button {
+    transition-duration: 0.5s;
+    font-size: 30px;
+    width: 150px;
+    height: 60px;
+    background-color: gold;
+    color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-radius:10px;
+    border-color: black;
     font-family:'Courier New', Courier, monospace;
 }
 
@@ -67,11 +62,21 @@
     cursor: pointer;
 }
 
-.sign_up_button {
+.sign_up {
+    transition-duration: 0.5s;
+    font-size: 30px;
+    width: 150px;
+    height: 60px;
+    background-color: gold;
+    color: black;
+    border-style: outset;
+    border-width: 3px;
+    border-radius:10px;
+    border-color: black;
     font-family:'Courier New', Courier, monospace;
 }
 
-.sign_up_button:hover {
+.sign_up:hover {
     background-color: grey;
     color: black;
     cursor: pointer;

@@ -1,11 +1,14 @@
 import styles from "./user_profile.module.css";
+import Link from 'next/link';
 
 function Homepage(){
     return(
         <div className={styles.container}>
             <div className={styles.title}>
                 <h1>USER PROFILE</h1>
-                <button className={styles.title_button}>Log Out</button>
+                <Link href="http://localhost:3000/item_listing" ><button className={styles.title_button}>List Item</button></Link>
+                <Link href="http://localhost:3000/home" ><button className={styles.title_button}>Log Out</button></Link>
+                
             </div>
 
             <img src="images/profile_rectangle.png" />

@@ -1,4 +1,5 @@
 import styles from "./navbar_profile.module.css";
+import Link from 'next/link';
 
 const Navbar = () => {
     return (
@@ -9,7 +10,8 @@ const Navbar = () => {
         </div>
         
         <div className={styles.navbarButtons}>
-          <a href="#">Back to Profile</a>
+        <Link href="http://localhost:3000/profile_account" >Back to Profile</Link>
+    
         </div>
       </div>
     );

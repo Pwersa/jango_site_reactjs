@@ -1,4 +1,5 @@
 import styles from "./registration.module.css";
+import Link from 'next/link';
 
 function Homepage(){
     return(
@@ -40,12 +41,13 @@ function Homepage(){
                     <br />
                     <input className={styles.details_input}type="date" />
                     <br /><br /><br />
-                    <button className={styles.button_submit} type="submit">Log in</button>
+                    <Link href="http://localhost:3000/profile_account" ><button className={styles.button_submit} type="submit">Register</button></Link>
+                    
                     <br />
                 </form>
                 <br />
-
-                <button className={styles.button_signup}>Sign Up</button>
+                <Link href="http://localhost:3000/profile_account" ><button className={styles.button_signup}> Log in instead</button></Link>
+                
                 
 
                 <p className={styles.forgot}>Forgot Password? <a href="#">Click Here</a></p>

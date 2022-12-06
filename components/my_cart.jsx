@@ -14,7 +14,7 @@ function home_site() {
                 <h3>"SELLER NAME"</h3>
                 <h4>SPECIFICATIONS:</h4>
                 <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sunt, quasi temporibus cum quos modi voluptatum facilis.</h5>
-                <button>Remove from Cart</button>
+                <button className={styles.items_available_button}>Remove From Cart</button>
 
             </div>
 
@@ -27,7 +27,7 @@ function home_site() {
                 <h3>"SELLER NAME"</h3>
                 <h4>SPECIFICATIONS:</h4>
                 <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sunt, quasi temporibus cum quos modi voluptatum facilis.</h5>
-                <button>Remove from Cart</button>
+                <button className={styles.items_available_button}>Remove From Cart</button>
 
             </div>
 
@@ -47,7 +47,7 @@ function home_site() {
             <div className={styles.pay_amount}>
                 <h1>Total Fee:</h1>
                 <h3>P1,234</h3>
-                <button>Check Out</button>
+                <button className={styles.pay_amount_button}>Check Out</button>
 
             </div>
             

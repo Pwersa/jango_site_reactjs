@@ -19,6 +19,7 @@
 .title > h1 {
     font-size: 30px;
     margin-left: 100px;
+    margin-right: 570px;
 }
 
 .title_button {
@@ -26,7 +27,7 @@
     font-size: 30px;
     width: 150px;
     height: 50px;
-    margin-left: 760px;
+    margin-left: 20px;
     background-color: gold;
     color: black;
     border-style: outset;

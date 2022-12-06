@@ -1,4 +1,5 @@
 import styles from "./navbar_aboutus.module.css";
+import Link from 'next/link';
 
 const Navbar = () => {
     return (
@@ -10,8 +11,8 @@ const Navbar = () => {
         </div>
         
         <div className={styles.navbarButtons}>
-          <button className={styles.login_button}> Login </button>
-          <button className={styles.sign_up_button}> Sign Up </button>
+          <Link href="http://localhost:3000/profile_account" ><button className={styles.login_button}>Login</button></Link>
+          <Link href="http://localhost:3000/registration" ><button className={styles.sign_up}>Sign Up</button></Link>
         </div>
       </div>
     );

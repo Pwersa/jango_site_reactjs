@@ -1,18 +1,21 @@
 .container {
     font-family:'Courier New', Courier, monospace;
-    background-color: #86BBD8;
+    background-color: black;
+    ;
 }
 
 .container > h1 {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 50px;
+    font-size: 60px;
 }
 
 .items_available {
     position: relative;
     text-align: center;
-    color: #F6AE2D;
+    color: white;
     margin-bottom: 1%;
 }
 
@@ -25,39 +28,57 @@
 .product {
     position: absolute;
     top: 50px;
-    left: 25%;
+    left: 24%;
     width: 300px;
     border-radius: 15px;
+}
+
+.items_available {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 10px 10px 10px 10px;
+}
+
+.items_available > p {
+    position: absolute;
+    text-align: left;
+    width: 30%;
+    font-size: 28px;
+    font-weight: 500;
+    top: 100px;
+    left: 43%;
 }
 
 .items_available > h1 {
     position: absolute;
     font-size: 40px;
-    top: 20px;
+    top: 23px;
     left: 43%;
 }
 
 .items_available > h2 {
     position: absolute;
-    font-size: 40px;
+    font-size: 30px;
     top: 60px;
     left: 43%;
     text-decoration: underline;
-    color: #B30000;
+    color: white;
 }
 
 .items_available > h3 {
     position: absolute;
     font-size: 35px;
-    top: 125px;
+    top: 100px;
     left: 43%;
 }
 
 .items_available > h4 {
     position: absolute;
     font-size: 35px;
-    top: 170px;
+    top: 150px;
     left: 43%;
+    text-decoration: underline;
 }
 
 .items_available > h5 {
@@ -65,38 +86,38 @@
     text-align: left;
     width: 30%;
     font-size: 20px;
-    top: 220px;
-    left: 43%;
+    font-weight: 500;
+    top: 210px;
+    left: 44%;
 }
 
-.items_available > button {
+.items_available_button:hover {
+    transition-duration: 0.3s;
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+}
+
+.items_available_button {
     position: absolute;
     text-align: center;
-    font-size: 25px;
-    top: 330px;
-    left: 65%;
-    height: 12%;
+    font-size: 20px;
+    top: 340px;
+    left: 64%;
+    height: 10%;
     width: 12%;
 
-    background-color: pink;
+    background-color: gold;
     color: black;
     border-style: outset;
     border-width: 3px;
     border-radius:10px;
     border-color: black;
-
-}
-
-.items_available:hover > button {
-    background-color: red;
-    color: black;
-    cursor: pointer;
 }
 
 .payment_method {
     position: relative;
     text-align: center;
-    color: #F6AE2D;
     margin-top: 5%;
 }
 
@@ -105,6 +126,7 @@
     font-size: 40px;
     top: 0px;
     left: 22%;
+    text-decoration: underline;
 }
 
 .payment_method > h2 {
@@ -120,6 +142,7 @@
     font-size: 35px;
     top: 125px;
     left: 38%;
+    text-decoration: underline;
 }
 
 .payment_method > button {
@@ -131,7 +154,7 @@
     height: 12%;
     width: 12%;
 
-    background-color: pink;
+    background-color: gold;
     color: black;
     border-style: outset;
     border-width: 3px;
@@ -141,7 +164,7 @@
 }
 
 .payment_method:hover > button {
-    background-color: red;
+    background-color: gray;
     color: black;
     cursor: pointer;
 }
@@ -187,25 +210,23 @@
     text-decoration: underline;
 }
 
-.pay_amount > button {
+.pay_amount_button {
     margin: 0px 50px 100px 10px;
-    font-size: 48px;
-}
-
-.pay_amount > button {
     font-size: 20px;
     width: 200px;
     height: 40px;
-    background-color: pink;
+    background-color: gold;
     color: black;
     border-style: outset;
     border-width: 3px;
     border-radius:10px;
     border-color: black;
 }
+    
 
-.pay_amount:hover > button {
-    background-color: red;
+.pay_amount_button:hover {
+    transition-duration: 0.3s;
+    background-color: gray;
     color: black;
     cursor: pointer;
 }
