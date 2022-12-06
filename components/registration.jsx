@@ -47,10 +47,6 @@ function Homepage(){
                 </form>
                 <br />
                 <Link href="http://localhost:3000/profile_account" ><button className={styles.button_signup}> Log in instead</button></Link>
-                
-                
-
-                <p className={styles.forgot}>Forgot Password? <a href="#">Click Here</a></p>
 
             </div>
 

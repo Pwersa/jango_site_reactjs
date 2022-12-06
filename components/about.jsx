@@ -27,17 +27,13 @@ function about_contact_page() {
                     <br />
                     <input className={styles.grid_item} type="email" />
                     <br /><br /><br />
-                    <label className={styles.grid_item}>First Name:</label>
+                    <label className={styles.grid_item}>Subject:</label>
                     <br />
-                    <input className={styles.grid_item} type="name" />
+                    <input className={styles.grid_item} type="text" />
                     <br /><br /><br />
-                    <label className={styles.grid_item}>Last Name:</label>
+                    <label className={styles.grid_item}>Message:</label>
                     <br />
-                    <input className={styles.grid_item} type="name" />
-                    <br /><br /><br />
-                    <label className={styles.grid_item}>Caller Number:</label>
-                    <br />
-                    <input className={styles.grid_item} type="number" />
+                    <input className={styles.grid_item_message} type="text" />
                     <br /><br /><br />
                     <button className={styles.submit_details} type="submit">SUBMIT</button>
                     

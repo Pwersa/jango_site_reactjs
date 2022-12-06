@@ -7,7 +7,7 @@ function home_site() {
 
             <div className={styles.items_available}>
                 <img className={styles.card_items}src="images/profile_rectangle.png" />
-                <img className={styles.product}src="items/product_2.png" />
+                <img className={styles.product}src="items/redragon.png" />
                
                 <h1>BRAND X</h1>
                 <h2>P10,000</h2>
@@ -20,7 +20,7 @@ function home_site() {
 
             <div className={styles.items_available}>
                 <img className={styles.card_items}src="images/profile_rectangle.png" />
-                <img className={styles.product}src="items/product_2.png" />
+                <img className={styles.product}src="items/rk68.png" />
                
                 <h1>BRAND X</h1>
                 <h2>P10,000</h2>
