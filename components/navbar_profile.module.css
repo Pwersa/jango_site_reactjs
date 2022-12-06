@@ -3,7 +3,7 @@
     justify-content: space-between;
     font-family:'Courier New', Courier, monospace;
     align-items: center;
-    background-color: darkred;
+    background-color: #414141;
     width: 100%;
     height: 100px;
 }
@@ -14,12 +14,13 @@
 }
 
 .title > img {
-    margin: 10px 10px 0px 10px;
+    margin: 15px 10px 0px 10px;
 }
 
 .title > h1 {
     font-size: 50px;
     margin-left: 30px;
+    text-decoration: underline;
 }
 
 .navbarButtons {
@@ -28,28 +29,8 @@
     margin-right: 30px;
 }
 
-.navbarButtons > button {
-    transition-duration: 0.5s;
-    font-size: 30px;
-    width: 150px;
-    height: 60px;
-    background-color: pink;
-    color: black;
-    border-style: outset;
-    border-width: 3px;
-    border-radius:10px;
-    border-color: black;
-}
-
-.navbarButtons > img {
-    border-radius: 20px;
-    align-items: center;
-    margin: 15px 10px 0px 10px;
-    width: 75px;
-    height: 75px;
-}
-
 .navbarButtons > a {
+    transition-duration: 0.3s;
     font-size: 40px;
     text-decoration: underline;
     font-weight: bold;

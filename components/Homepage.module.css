@@ -51,6 +51,7 @@
 }
 
 .search_item_button:hover {
+    transition-duration: 0.3s;
     background-color: grey;
     color: black;
     cursor: pointer;
@@ -129,6 +130,7 @@
 }
 
 .items_available_button:hover {
+    transition-duration: 0.3s;
     background-color: grey;
     color: black;
     cursor: pointer;

@@ -70,6 +70,7 @@
 }
 
 .sign_up:hover {
+    transition-duration: 0.3s;
     background-color: grey;
     color: black;
     cursor: pointer;
