@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className={styles.title}>
           
           <img src="images/icon_badge.png" width="90" height="90" />  
-          <h1>JANGO KEEB</h1>
+          <h1>Jango Keeb</h1>
         </div>
         
         <div className={styles.navbarButtons}>
