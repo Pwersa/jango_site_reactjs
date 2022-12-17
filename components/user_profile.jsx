@@ -1,6 +1,5 @@
 import styles from "./user_profile.module.css";
 import Link from 'next/link';
-import Table from 'react-bootstrap/Table';
 
 function Homepage(){
     return(
