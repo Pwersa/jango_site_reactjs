@@ -61,6 +61,11 @@ function home_site() {
                 
             </div>
 
+            <div className={styles.items_available}>
+                END OF LIST.
+                
+            </div>
+
         </div>
     );
 }
