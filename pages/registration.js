@@ -1,7 +1,8 @@
 import Register_Page from "../components/registration";
 import Navbar from "../components/navbar_registration";
+import { getSession } from "next-auth/react";
 
-function Home(){
+export default function Home(){
     return(
         <div>
             <Navbar />
@@ -11,4 +12,19 @@ function Home(){
     );
 };
 
-export default Home;
+export async function getServerSideProps({req}) {
+    const session = await getSession({req})
+  
+    if (!session) {
+      return {
+        props: { session }
+      }
+    }
+  
+    return {
+      redirect: {
+        destination: '/login',
+        permanent: false
+      }
+    }
+  }

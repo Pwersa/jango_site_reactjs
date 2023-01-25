@@ -1,4 +1,4 @@
-import styles from "./navbar_homepage.module.css";
+import styles from "./navbar_login.module.css";
 import Link from 'next/link';
 
 const Navbar = () => {
@@ -12,8 +12,7 @@ const Navbar = () => {
         
         <div className={styles.navbarButtons}>
           <Link href="/about_us" className={styles.about_us}>About Us</Link>
-          <Link href="/login" className={styles.log_in}>Log In</Link>
-          <Link href="/registration"><button className={styles.sign_up} >Sign Up</button></Link>
+          <Link href="/registration" className={styles.register}>Register</Link>
         </div>
       </div>
     );

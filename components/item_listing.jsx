@@ -29,7 +29,7 @@ function Homepage(){
                     <br />
                     <input className={styles.details_input}type="number" />
                     <br /><br /><br />
-                    <Link href="http://localhost:3000/home_logged_in" ><button className={styles.button_submit} type="submit">Confirm</button></Link>
+                    <Link href="/home_logged_in" ><button className={styles.button_submit} type="submit">Confirm</button></Link>
                     
                     <br />
                 </form>

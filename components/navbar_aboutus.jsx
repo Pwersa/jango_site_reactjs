@@ -11,8 +11,8 @@ const Navbar = () => {
         </div>
         
         <div className={styles.navbarButtons}>
-          <Link href="http://localhost:3000/profile_account" ><button className={styles.login_button}>Login</button></Link>
-          <Link href="http://localhost:3000/registration" ><button className={styles.sign_up}>Sign Up</button></Link>
+          <Link href="/login" ><button className={styles.login_button}>Login</button></Link>
+          <Link href="/registration" ><button className={styles.sign_up}>Sign Up</button></Link>
         </div>
       </div>
     );

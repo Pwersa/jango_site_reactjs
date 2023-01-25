@@ -13,7 +13,7 @@ function home_site() {
                 <p> This sleek keyboard features a 60% layout and a cobalt blue body. With grey and blue double-shot PBT MSA keycaps, 
                     this cool keyboard surely deserves a spot in your PC setup.
                 </p>
-                <Link href="http://localhost:3000/my_cart"><button className={styles.items_available_button} >Add to Cart</button></Link>
+                <Link href="/my_cart"><button className={styles.items_available_button} >Add to Cart</button></Link>
             </div>
 
             <div className={styles.search_item}>
@@ -31,7 +31,7 @@ function home_site() {
                 <h3>"SELLER NAME"</h3>
                 <h4>SPECIFICATIONS:</h4>
                 <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sunt, quasi temporibus cum quos modi voluptatum facilis.</h5>
-                <Link href="http://localhost:3000/my_cart"><button className={styles.items_available_button} >Add to Cart</button></Link>
+                <Link href="/my_cart"><button className={styles.items_available_button} >Add to Cart</button></Link>
                 
             </div>
 
@@ -44,7 +44,7 @@ function home_site() {
                 <h3>"SELLER NAME"</h3>
                 <h4>SPECIFICATIONS:</h4>
                 <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sunt, quasi temporibus cum quos modi voluptatum facilis.</h5>
-                <Link href="http://localhost:3000/my_cart"><button className={styles.items_available_button} >Add to Cart</button></Link>
+                <Link href="/my_cart"><button className={styles.items_available_button} >Add to Cart</button></Link>
                 
             </div>
             
@@ -57,12 +57,7 @@ function home_site() {
                 <h3>"SELLER NAME"</h3>
                 <h4>SPECIFICATIONS:</h4>
                 <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo sunt, quasi temporibus cum quos modi voluptatum facilis.</h5>
-                <Link href="http://localhost:3000/my_cart"><button className={styles.items_available_button} >Add to Cart</button></Link>
-                
-            </div>
-
-            <div className={styles.items_available}>
-                END OF LIST.
+                <Link href="/my_cart"><button className={styles.items_available_button} >Add to Cart</button></Link>
                 
             </div>
 

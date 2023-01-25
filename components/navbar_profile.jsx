@@ -10,7 +10,10 @@ const Navbar = () => {
         </div>
         
         <div className={styles.navbarButtons}>
-          <Link href="http://localhost:3000/home_logged_in" className={styles.marketplace}>Marketplace</Link>
+          <Link href="/home_logged_in" className={styles.marketplace}>Marketplace</Link>
+          <Link href="/pictures" className={styles.marketplace}>My~Gallery</Link>
+          <Link href="/change_password" className={styles.marketplace}>Change~Password</Link>
+          <Link href="/profile_account" className={styles.marketplace}>My~Profile</Link>
         </div>
       </div>
     );

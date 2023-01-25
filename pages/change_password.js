@@ -1,13 +1,12 @@
-import Homepage from "../components/user_profile";
-import Navbar from "../components/navbar_profile";
+import Change from "../components/change_password";
+import Navbar from "../components/navbar_changepass";
 import { getSession } from "next-auth/react";
 
 function Home(){
     return(
         <div>
             <Navbar />
-            <Homepage />
-           
+            <Change />
         </div>
     );
 };

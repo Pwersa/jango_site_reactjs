@@ -10,7 +10,7 @@ const Navbar = () => {
         </div>
         
         <div className={styles.navbarButtons}>
-          <Link href="http://localhost:3000/home">Home</Link>
+          <Link href="/home">Home</Link>
         </div>
       </div>
     );

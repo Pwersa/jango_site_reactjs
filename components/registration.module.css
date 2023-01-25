@@ -72,3 +72,7 @@
 .forgot > a {
     text-decoration: underline;
 }
+
+.guide {
+    color: red;
+}

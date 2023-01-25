@@ -10,8 +10,8 @@ const Navbar = () => {
         </div>
         
         <div className={styles.navbarButtons}>
-        <Link href="http://localhost:3000/my_cart" >My CART</Link>
-        <Link href="http://localhost:3000/profile_account" ><img src="people/placeholder.png" width="70" height="70" />  </Link>
+        <Link href="/my_cart" >My CART</Link>
+        <Link href="/profile_account" ><img src="people/placeholder.png" width="70" height="70" />  </Link>
           
         </div>
       </div>
